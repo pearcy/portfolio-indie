@@ -101,6 +101,14 @@ nav a:hover {
   text-align: center;
 }
 
+.intro h1 {
+  font-size: 3rem;
+}
+
+.intro h4 {
+  font-size: 1.6rem;
+}
+
 .services {
   display: grid;
   grid-column: 1/4;
@@ -145,10 +153,19 @@ nav a:hover {
 }
 
 
-.cta {
+.cta {background: darkcyan;
   display: grid;
   grid-column: 1/4;
   text-align: center;
+
+}
+
+.cta h1 {
+  font-size: 3rem;
+}
+
+.cta h4 {
+  font-size: 1.6rem;
 }
 
 .footer {
