@@ -70,8 +70,9 @@ img {
 }
 
 .nav a {
+  font-size: 1.4rem;
   text-decoration: none;
-  padding: 0.4rem;
+  padding: 0.6rem;
 }
 
 nav a:hover {
