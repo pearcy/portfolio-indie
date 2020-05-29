@@ -87,6 +87,7 @@ nav a:hover {
   background-position: center;
   grid-column: 1/4;
   min-height: 300px;
+  
 }
 
 .hero h2 {
@@ -109,6 +110,7 @@ nav a:hover {
   display: grid;
   grid-column: 1/4;
   text-align: center;
+  background: #67d0ed;
 }
 
 .intro h1 {
@@ -133,7 +135,7 @@ nav a:hover {
 }
 
 .service1 {
-  background-color: #67d0ed;
+  background: lightgrey;
   /* background-size: cover; */
   /* background-position: center; */
   /* background: lightblue; */
@@ -148,7 +150,7 @@ nav a:hover {
 
 .service2 {
   /* background: lightblue; */
-  background: #67d0ed;
+  background: lightgrey;
   text-align: center;
   padding: 1.5rem 2rem;
 }
@@ -158,7 +160,7 @@ nav a:hover {
 }
 
 .service3 {
-  background: #67d0ed;
+  background: lightgrey;
   text-align: center;
   padding: 1.5rem 2rem;
 }
@@ -183,7 +185,7 @@ nav a:hover {
 
 
 .project1 {
-  background-color: lightgrey;
+  background: #67d0ed;
   text-align: center;
   padding: 1.5rem 2rem;
   
@@ -194,7 +196,7 @@ nav a:hover {
 }
 
 .project2 {
-  background-color: lightgrey;
+  background: #67d0ed;
   text-align: center;
   padding: 1.5rem 2rem;
 
@@ -205,7 +207,7 @@ nav a:hover {
 }
 
 .project3 {
-  background-color: lightgrey;
+  background: #67d0ed;
   text-align: center;
   padding: 1.5rem 2rem;
 
@@ -216,7 +218,7 @@ nav a:hover {
 }
 
 .cta {
-  background: darkcyan;
+  background: #BD3A17;
   display: grid;
   grid-column: 1/4;
   text-align: center;
@@ -224,14 +226,20 @@ nav a:hover {
 
 .cta h1 {
   font-size: 3rem;
+  color: whitesmoke;
 }
 
 .cta h4 {
   font-size: 1.6rem;
+  color: whitesmoke;
 }
 
 .footer {
   display: grid;
   grid-column: 1/4;
   text-align: center;
+  background: #67d0ed;
+  flex-direction: row;
+  padding-top: 100px;
+
 }
