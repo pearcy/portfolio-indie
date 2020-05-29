@@ -174,10 +174,16 @@ nav a:hover {
 }
 
 .project1 {
+  background: white;
   grid-area: project;
   display: grid;
   grid-column: 1/2;
   text-align: center;
+  
+}
+
+.project1 h2 {
+  font-size: 2rem;
 }
 
 .project2 {
@@ -187,11 +193,19 @@ nav a:hover {
   text-align: center;
 }
 
+.project2 h2 {
+  font-size: 2rem;
+}
+
 .project3 {
   grid-area: project;
   display: grid;
   grid-column: 3/4;
   text-align: center;
+}
+
+.project3 h2 {
+  font-size: 2rem;
 }
 
 .cta {
