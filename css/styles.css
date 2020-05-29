@@ -41,16 +41,14 @@ img {
 .header {
   grid-area: header;
   grid-column: 1/3;
-  background-color: grey;
+  /* background-color: grey; */
   min-height: 120px;
   padding-top: 30px;
   padding-left: 30px;
-  /* padding: 10px; */
-  
 }
 
 .nav {
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   grid-area: nav;
   grid-column: 3/4;
   display: flex;
@@ -65,10 +63,33 @@ img {
 
 }
 
+nav a:hover {
+  background: darkblue;
+  color: #2F4F4F;
+}
+
 .hero {
-  background-color: burlywood;
+  background: url("../img/hotel-modero-v2.0.jpg");
+  background-size: cover;
+  background-position: center;
   grid-column: 1/4;
-  max-height: 400px;
+  min-height: 300px;
+}
+
+.hero h2 {
+  font-size: 4rem;
+  /* margin-bottom: 0; */
+  color: whitesmoke;
+  padding-top: 10px;
+  padding-left: 20px;
+  display: inline;
+}
+
+.hero p {
+  font-size: 2rem;
+  /* margin-bottom: 0; */
+  color: whitesmoke;
+  padding-left: 20px;
 }
 
 
