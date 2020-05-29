@@ -82,7 +82,7 @@ nav a:hover {
 }
 
 .hero {
-  background: url("../img/Bogart-allthroughthenight_v10.jpg");
+  background: url("../img/app_dev_image_1080x1080");
   background-size: cover;
   background-position: center;
   grid-column: 1/4;
@@ -240,7 +240,7 @@ nav a:hover {
   text-align: center;
   background: #67d0ed;
   flex-direction: row;
-  padding-top: 100px;
+  padding-bottom: 20px;
   align-content: end;
   /* max-height: 200px; */
 
