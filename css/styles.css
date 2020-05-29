@@ -31,6 +31,8 @@ body {
   max-height: 100px;
 }
 
+.btn:hover {background-color: darkblue}
+
 img {
   max-width: 100%;
 }
