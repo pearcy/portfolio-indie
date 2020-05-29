@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  color: #2F4F4F;
+  color: #2f4f4f;
 }
 
 body {
-  background: #FFFCFC;
+  background: #fffcfc;
   margin: 30px 50px;
   line-height: 1.4;
 }
@@ -30,14 +30,12 @@ img {
   grid-template-rows: 160px 1fr 1fr 1fr 1fr 1fr 1fr;
   background-color: whitesmoke;
   align-content: center;
-
 }
 
 .header-container {
   display: grid;
   grid-column: 1/4;
-  grid-template-areas:
-  'header nav';
+  grid-template-areas: "header nav";
 }
 
 .header {
@@ -56,22 +54,21 @@ img {
   display: flex;
   justify-content: space-evenly;
   padding-top: 20px;
-
 }
 
 .nav a {
   text-decoration: none;
-  padding: .4rem;
-
+  padding: 0.4rem;
 }
 
 nav a:hover {
   background: darkblue;
-  color: #2F4F4F;
+  color: #783319;
+  
 }
 
 .hero {
-  background: url("../img/hotel-modero-v2.0.jpg");
+  background: url("../img/Bogart-allthroughthenight_v10.jpg");
   background-size: cover;
   background-position: center;
   grid-column: 1/4;
@@ -94,7 +91,6 @@ nav a:hover {
   padding-left: 20px;
 }
 
-
 .intro {
   display: grid;
   grid-column: 1/4;
@@ -113,22 +109,48 @@ nav a:hover {
   display: grid;
   grid-column: 1/4;
   grid-gap: 2px;
-  grid-template-areas:
-  'service service service';
-  
+  grid-template-areas: "service service service";
 }
 
-.service {
-  background: lightblue;
+.service1 {
+  background-color: #67d0ed;
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* background: lightblue; */
   text-align: center;
   padding: 1.5rem 2rem;
+
+}
+
+.service1 h2 {
+  font-size: 2rem;
+}
+
+.service2 {
+  /* background: lightblue; */
+  background: #67d0ed;
+  text-align: center;
+  padding: 1.5rem 2rem;
+}
+
+.service2 h2 {
+  font-size: 2rem;
+}
+
+.service3 {
+  background: #67d0ed;
+  text-align: center;
+  padding: 1.5rem 2rem;
+}
+
+.service3 h2 {
+  font-size: 2rem;
 }
 
 .portfolio {
   display: grid;
   grid-column: 1/4;
-  grid-template-areas:
-  'project1 project2 project3';
+  grid-template-areas: "project1 project2 project3";
 }
 
 .project1 {
@@ -152,12 +174,11 @@ nav a:hover {
   text-align: center;
 }
 
-
-.cta {background: darkcyan;
+.cta {
+  background: darkcyan;
   display: grid;
   grid-column: 1/4;
   text-align: center;
-
 }
 
 .cta h1 {
@@ -173,30 +194,3 @@ nav a:hover {
   grid-column: 1/4;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
