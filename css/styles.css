@@ -170,15 +170,22 @@ nav a:hover {
 .portfolio {
   display: grid;
   grid-column: 1/4;
+  grid-gap: 2px;
   grid-template-areas: "project1 project2 project3";
 }
 
-.project1 {
-  background: white;
-  grid-area: project;
+.services {
   display: grid;
-  grid-column: 1/2;
+  grid-column: 1/4;
+  grid-gap: 2px;
+  grid-template-areas: "service service service";
+}
+
+
+.project1 {
+  background-color: lightgrey;
   text-align: center;
+  padding: 1.5rem 2rem;
   
 }
 
@@ -187,10 +194,10 @@ nav a:hover {
 }
 
 .project2 {
-  grid-area: project;
-  display: grid;
-  grid-column: 2/3;
+  background-color: lightgrey;
   text-align: center;
+  padding: 1.5rem 2rem;
+
 }
 
 .project2 h2 {
@@ -198,10 +205,10 @@ nav a:hover {
 }
 
 .project3 {
-  grid-area: project;
-  display: grid;
-  grid-column: 3/4;
+  background-color: lightgrey;
   text-align: center;
+  padding: 1.5rem 2rem;
+
 }
 
 .project3 h2 {
