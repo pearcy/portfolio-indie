@@ -16,7 +16,10 @@ Created a portfolio site called ZOTTA that includes week 1 learnings.
 - Include the the following html tags (p, h, ul, ol, li, em, strong, a, img, div, and span.)
 - Include a custom stylsheet
 - Link to Github repository
+https://github.com/pearcy/portfolio-indie.git
 - Deploy to GitHub Pages.
+https://pearcy.github.io/portfolio-indie/
+
 
 ## Known Bugs
 
