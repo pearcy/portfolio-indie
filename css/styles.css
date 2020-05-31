@@ -40,7 +40,7 @@ img {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1184px;
   display: grid;
   grid-gap: 2px;
   grid-template-columns: 1fr 1fr 1fr;
