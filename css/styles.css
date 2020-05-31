@@ -47,8 +47,9 @@ img {
   grid-template-rows: 160px 1fr 1fr 1fr 1fr 1fr 1fr;
   background-color: whitesmoke;
   align-content: center;
-  display: inline-grid;
-  justify-items: center;
+  /* display: inline-grid; */
+  /* justify-items: center; */
+  margin: auto;
 }
 
 .header-container {
