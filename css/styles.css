@@ -31,7 +31,9 @@ body {
   max-height: 100px;
 }
 
-.btn:hover {background-color: darkblue}
+.btn:hover {
+  background-color: darkblue;
+}
 
 img {
   max-width: 100%;
@@ -45,6 +47,8 @@ img {
   grid-template-rows: 160px 1fr 1fr 1fr 1fr 1fr 1fr;
   background-color: whitesmoke;
   align-content: center;
+  display: inline-grid;
+  justify-items: center;
 }
 
 .header-container {
@@ -78,9 +82,8 @@ img {
 }
 
 nav a:hover {
-  background: #EE4811;
+  background: #ee4811;
   color: #783319;
-  
 }
 
 .hero {
@@ -89,7 +92,6 @@ nav a:hover {
   background-position: center;
   grid-column: 1/4;
   min-height: 300px;
-  
 }
 
 .hero h2 {
@@ -143,7 +145,6 @@ nav a:hover {
   /* background: lightblue; */
   text-align: center;
   padding: 1.5rem 2rem;
-
 }
 
 .service1 h2 {
@@ -190,12 +191,10 @@ nav a:hover {
   grid-template-areas: "project1 project2 project3";
 }
 
-
 .project1 {
   background: #67d0ed;
   text-align: center;
   padding: 1.5rem 2rem;
-  
 }
 
 .project1 h2 {
@@ -210,7 +209,6 @@ nav a:hover {
   background: #67d0ed;
   text-align: center;
   padding: 1.5rem 2rem;
-
 }
 
 .project2 h2 {
@@ -225,7 +223,6 @@ nav a:hover {
   background: #67d0ed;
   text-align: center;
   padding: 1.5rem 2rem;
-
 }
 
 .project3 h2 {
@@ -237,7 +234,7 @@ nav a:hover {
 }
 
 .cta {
-  background: #BD3A17;
+  background: #bd3a17;
   display: grid;
   grid-column: 1/4;
   text-align: center;
@@ -262,5 +259,4 @@ nav a:hover {
   padding-bottom: 20px;
   align-content: end;
   /* max-height: 200px; */
-
 }
