@@ -10,6 +10,10 @@ body {
   line-height: 1.4;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* .btn {
   background-color: lightcoral;
   color: black;
@@ -40,7 +44,7 @@ img {
 }
 
 .container {
-  max-width: 1184px;
+  max-width: 1180px;
   display: grid;
   grid-gap: 2px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -90,9 +94,10 @@ nav a:hover {
 .hero {
   background: url("../img/app_dev_image_1080x1080");
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   grid-column: 1/4;
-  min-height: 300px;
+  /* min-height: 300px; */
+  /* max-width: 100%; */
 }
 
 .hero h2 {
@@ -260,4 +265,8 @@ nav a:hover {
   padding-bottom: 20px;
   align-content: end;
   /* max-height: 200px; */
+}
+
+@media {
+  
 }
